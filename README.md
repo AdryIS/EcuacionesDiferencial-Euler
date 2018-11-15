@@ -1,1 +1,4 @@
 # EcuacionesDiferencial-Euler
+
+Es un procedimiento de integración numérica para resolver ecuaciones diferenciales ordinarias (EDO) a partir de un valor inicial dado. El método de Euler es el más simple de los métodos numéricos para resolver un problema de valor inicial. El método de Euler es un método de primer orden, lo que significa que el error local es proporcional al cuadrado del tamaño del paso, y el error global es proporcional al tamaño del paso. El método de Euler regularmente sirve como base para construir métodos más complejos.
+Consiste en dividir los intervalos que va de x0 a xf en n subintervalos de ancho h. Debido a que la aproximación de una curva por medio de una línea recta no es exacta, se comete un error derivado del método. A este error se le conoce como error de truncamiento. Este error se puede disminuir reduciendo el valor de h, pero se obtendrá un mayor número de cálculos y, por consiguiente, un error de redondeo mucho más alto.
